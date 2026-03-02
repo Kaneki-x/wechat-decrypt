@@ -1,6 +1,14 @@
 {
-    "db_dir": "D:\\xwechat_files\\your_wxid\\db_storage",
+    "_comment_windows": "Windows 示例配置",
+    "_db_dir_windows": "D:\\xwechat_files\\your_wxid\\db_storage",
+    "_wechat_process_windows": "Weixin.exe",
+
+    "_comment_macos": "macOS 示例配置",
+    "_db_dir_macos": "~/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/YOUR_VERSION/YOUR_WXID/db_storage",
+    "_wechat_process_macos": "WeChat",
+
+    "db_dir": "请根据平台填写上面对应的路径",
     "keys_file": "all_keys.json",
     "decrypted_dir": "decrypted",
-    "wechat_process": "Weixin.exe"
+    "wechat_process": "请根据平台填写: Windows用Weixin.exe, macOS用WeChat"
 }

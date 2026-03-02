@@ -148,7 +148,7 @@ def main():
     with open(KEYS_FILE) as f:
         keys = json.load(f)
 
-    session_key_info = keys.get("session\\session.db")
+    session_key_info = keys.get("session/session.db")
     if not session_key_info:
         print("[ERROR] 找不到session.db的密钥")
         sys.exit(1)

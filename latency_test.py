@@ -17,7 +17,7 @@ DECRYPTED = os.path.join(_cfg["decrypted_dir"], "session", "session.db")
 
 with open(KEYS_FILE) as f:
     keys = json.load(f)
-enc_key = bytes.fromhex(keys["session\\session.db"]["enc_key"])
+enc_key = bytes.fromhex(keys["session/session.db"]["enc_key"])
 
 session_db = os.path.join(DB_DIR, "session", "session.db")
 wal_path = session_db + "-wal"
